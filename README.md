@@ -36,3 +36,6 @@ The implementation is based on the following algorithms:
 5. **Delete-Max** — O(log n)
 6. **Sort-Heap** — O(n log n)
 
+## 🧾 Python Code
+
+[View python code](maxHeap py)
