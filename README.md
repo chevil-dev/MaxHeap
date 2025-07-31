@@ -38,4 +38,4 @@ The implementation is based on the following algorithms:
 
 ## 🧾 Python Code
 
-[View python code](maxHeap py)
+[View python code](MaxHeap.py)
