@@ -34,17 +34,3 @@ The implementation is based on the following algorithms:
 5. **Delete-Max** — O(log n)
 6. **Sort-Heap** — O(n log n)
 
-## 🧾 Example Usage
-
-```python
-from max_heap import MaxHeap
-
-heap = MaxHeap()
-heap.build_max_heap([3, 1, 4, 1, 5, 9, 2])
-heap.insert(10)
-heap.increase(2, 8)
-print("Heap after operations:", heap.heap)
-max_val = heap.delete_max()
-print("Deleted max value:", max_val)
-sorted_list = heap.sort_heap()
-print("Sorted list:", sorted_list)
