@@ -28,7 +28,7 @@ class MaxHeap:
             i = (i-1) // 2
     def insert(self , value):
         self.heap.append(float('-inf'))
-        self.increase(self , len(self.heap) - 1, value)
+        self.increase(len(self.heap) - 1, value)
     def delete_max(self):
         if len(self.heap) < 1:
             raise IndexError ("Heap is empty.")
