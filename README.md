@@ -4,6 +4,8 @@
 
 This repository contains an implementation of the **Max-Heap** data structure in Python, based on the classic algorithms used for heap construction, insertion, deletion, and heap sort.
 
+<img align= "center" src= "https://github.com/chevil-dev/MaxHeap/blob/main/images/00.png" width = "300" >
+
 ## 📚 Description
 
 A **Max-Heap** is a complete binary tree where the value of each parent node is greater than or equal to the values of its children. This structure is useful for implementing priority queues and for efficient sorting (Heap Sort).
